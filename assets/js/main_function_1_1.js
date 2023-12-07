@@ -1,8 +1,11 @@
-let a = 1 + 3
+let num1 = 1
+let num2 = 3
 
-function intro(number) {
-    console.log("1+3 =", number);
+
+function intro(x, y) {
+    let a = x + y
+    console.log(`1+3 = ${a}`);
     console.log("Hello World");
 }
 
-intro(a)
+intro(num1, num2)
