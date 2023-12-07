@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+}
+
+.parent {
+    display: flex;
+    gap: 2rem;
+}
+
+.parent div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.child1 {
+    background: linear-gradient(45deg, green 0%, 50%, purple 50%);
+}
+
+.child2 {
+    background: linear-gradient(45deg, gray 0%, 50%, rgb(172, 172, 2) 50%);
+}
+
+.child3 {
+    background: linear-gradient(45deg, rgb(9, 9, 53) 0%, 50%, orange 50%);
+}
+
+.child4 {
+    background: linear-gradient(45deg, darkblue 0%, 50%, lightblue 50%);
+}
+
+.parent div:hover {
+    transition-delay: 0.1s;
+    box-shadow: 5px 5px 20px dark;
+}
+
