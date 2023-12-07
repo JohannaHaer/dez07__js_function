@@ -33,4 +33,3 @@ function colorChange4() {
     let colorH1 = "lightblue";
     h1.style.color = colorH1;
 }
-
